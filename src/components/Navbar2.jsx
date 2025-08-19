@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`w-full z-50 fixed top-0 transition-all ${
+      className={`w-full z-50 fixed top-0  transition-all ${
         isScrolled ? "bg-white/80 backdrop-blur border-b border-gray-300" : "bg-transparent"
       }`}
     >
@@ -53,7 +53,7 @@ const Navbar = () => {
               <a
                 href={`#${item.toLowerCase()}`}
                 onClick={() => setIsMenuOpen(false)}
-                className="block w-full hover:text-zinc-500 transition-colors duration-200"
+                className="block w-full hover:text-zinc-500 transition-colors duration-100"
               >
                 {item}
               </a>

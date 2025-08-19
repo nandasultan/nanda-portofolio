@@ -4,24 +4,64 @@ import {} from "./data";
 function App() {
   return (
     <>
-      <div className="pt-17 md:pt-24">
+      <div className="pt-17 md:pt-24 md:hidden hidden lg:block">
+        <div className="hero container mx-auto sm:px-20 px-5 grid md:grid-cols-2 item-center xl:gap-0 gap-6 grid-cols-1">
+          <div className="animate__animated animate__fadeInUp animate__delay-3s">
+            <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Ananda Sultan Hady Wibowo</h1>
+
+            <p className="text-base/loose mb-6 opacity-50">
+              Fresh graduate Teknik Informatika yang passionate dalam pengembangan perangkat lunak. Saya memiliki
+              pengalaman dalam web development, mobile development, dan machine learning.
+            </p>
+
+            <div>
+              <div className="flex items-center gap-3 mb-6 bg-zinc-200 w-fit h-20 p-4 rounded-2xl">
+                <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy" />
+                <q>Kode yang indah, lahir dari ketekunan. ❤️</q>
+              </div>
+              <div className="items-center flex sm:gap-4 gap-2">
+                <a
+                  href="#kontak"
+                  className=" text-white bg-[#6b7479] p-4 rounded-2xl hover:bg-zinc-400 hover:text-black "
+                >
+                  Download CV <i className="ri-arrow-down-long-fill ri-lg overflow-hidden"></i>
+                </a>
+                <a
+                  href="#proyek"
+                  className="text-white bg-[#2c2f30] p-4 rounded-2xl hover:bg-zinc-300 hover:text-black  "
+                >
+                  Lihat Proyek <i className="ri-arrow-down-long-fill ri-lg overflow-y-scroll"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <img
+            src={DataImage.HeroImage}
+            alt="Hero Image"
+            className=" w-[400px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s"
+            loading="lazy"
+          />
+        </div>
+      </div>
+
+      {/* HERO */}
+      <div className="pt-17 md:pt-24 lg:hidden">
         <div className="hero container mx-auto sm:px-20 px-5 grid md:grid-cols-2 item-center xl:gap-0 gap-6 grid-cols-1">
           <div className="animate__animated animate__fadeInUp animate__delay-3s">
             <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Ananda Sultan Hady Wibowo</h1>
           </div>
-
           <div>
             <img
               src={DataImage.HeroImage}
               alt="Hero Image"
-              className=" w-[400px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s  lg:hidden"
+              className=" w-[400px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s lg:hidden"
               loading="lazy"
             />
           </div>
         </div>
-        <div className="hero container mx-auto sm:px-20 px-5 grid md:grid-cols-2 item-center xl:gap-0 gap-6 grid-cols-1">
+        <div className="hero container  mx-auto sm:px-20 px-5 grid md:grid-cols-2 item-center xl:gap-0 gap-6 grid-cols-1">
           <div>
-            <p className="text-base/loose mb-6 opacity-50">
+            <p className="text-base/loose sm:mb-6 mb-0 sm:mt-0 mt-6 opacity-50 sm:text-left text-justify">
               Fresh graduate Teknik Informatika yang passionate dalam pengembangan perangkat lunak. Saya memiliki
               pengalaman dalam web development, mobile development, dan machine learning.
             </p>
@@ -31,7 +71,7 @@ function App() {
               <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy" />
               <q>Kode yang indah, lahir dari ketekunan. ❤️</q>
             </div>
-            <div className="items-center flex sm:gap-4 gap-2">
+            <div className="items-center flex sm:gap-4 gap-2 justify-center">
               <a
                 href="/public/assets/CV-ATS-ANANDA.pdf"
                 className=" text-white bg-[#6b7479] p-4 rounded-2xl hover:bg-zinc-400 hover:text-black "
@@ -51,10 +91,11 @@ function App() {
           </div>
         </div>
       </div>
+      {/* HERO */}
 
       {/* TENTANG */}
       <div
-        className="tentang animate__animated animate__fadeInUp animate__delay-4s sm:mt-10 mt-10 py-10 sm:p-0 p-5"
+        className="tentang animate__animated animate__fadeInUp animate__delay-4s sm:mt-0 lg:mt-10 py-10 sm:p-20 p-5"
         id="tentang"
       >
         <div
@@ -64,7 +105,6 @@ function App() {
           data-aos-delay="300"
           data-aos-once="true"
         >
-          <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" loading="lazy" />
           <h1 className="text-4xl font-black text-center pb-5">About Me</h1>
           <p className="text-base/loose mb-10">
             Saya adalah lulusan Teknik Informatika dengan IPK 3.75 dari Universitas Indonesia. Selama kuliah, saya aktif
@@ -95,7 +135,7 @@ function App() {
       </div>
 
       {/* TOOLS */}
-      <div className="container mx-auto tools sm:mt-32 mt-15 sm:px-20 px-5">
+      <div className="container mx-auto tools sm:mt-0 mt-0 sm:px-15 px-5">
         <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up" dataaos-duration="1000" data-aos-once="true">
           Tools yang dipakai
         </h1>
@@ -130,8 +170,9 @@ function App() {
       {/* TOOLS */}
 
       {/* Proyek */}
-      <section className="bg-black/5 sm:px-20 px-5">
-        <div className="proyek container mx-auto px-4 sm:mt-32 mt-20 py-10" id="proyek">
+
+      <section className="bg-black/5 sm:px-20 sm:mt-32 mt-20 px-5">
+        <div id="proyek" className="proyek container mx-auto px-4  py-18 ">
           <h1
             className="text-center text-4xl font-bold mb-2"
             data-aos="fade-up"
@@ -150,7 +191,7 @@ function App() {
             Berikut ini beberapa proyek yang telah di kerjakan
           </p>
 
-          <div className="proyek-box sm:mt10 mt-8 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4">
+          <div className="proyek-box sm:mt10 mt-8 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4 justify-items-center">
             {listProyek.map((proyek) => (
               <div
                 data-slot="card"
@@ -165,7 +206,7 @@ function App() {
                   <img
                     src={proyek.gambar}
                     alt="Proyek Image"
-                    className="w-full sm:h-46 md:h-40 xl:h-55 object-cover hover:scale-105 transition-transform duration-300"
+                    className="w-full sm:h-46 md:h-40 xl:h-65 object-cover hover:scale-105 transition-transform duration-300"
                     loading="lazy"
                   />
                 </div>
@@ -191,11 +232,11 @@ function App() {
                         <rect width="18" height="18" x="3" y="4" rx="2"></rect>
                         <path d="M3 10h18"></path>
                       </svg>
-                      <span className="text-sm">2024</span>
+                      <span className="text-sm">{proyek.span}</span>
                     </div>
                   </div>
                   <p className="text-base/loose mb-4"> {proyek.desk}</p>
-                  <div className="flex flex-wrap gap-2 mb-4">
+                  <div className="flex flex-wrap gap-2 mb-10">
                     {proyek.tools.map((tool, index) => (
                       <p key={index} className="py-1 px-2 border border-zinc-200 rounded-xl font-medium text-sm">
                         {tool}
@@ -267,12 +308,12 @@ function App() {
 
       {/* Kontak */}
       <div
-        className="kontak sm:mt-15 mt-10 sm:p-0 p-5"
+        className="kontak lg:py-20 py-20 sm:mt-15 mt-10 sm:p-0 p-5 "
         id="kontak"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-        data-aos-delay="500"
-        data-aos-once="true"
+        // data-aos="fade-up"
+        // data-aos-duration="1000"
+        // data-aos-delay="500"
+        // data-aos-once="true"
       >
         <h1
           className="text-4xl mb-2 font-bold text-center"
@@ -386,8 +427,8 @@ function App() {
               <h3 className="text-xl font-medium mb-1">Profil Online</h3>
               <div className="">
                 <a
-                  href="#"
-                  className="flex items-center gap-4 p-3 rounded-lg hover:bg-accent transition-colors"
+                  href="https://www.linkedin.com/in/nandasultan/"
+                  className="flex items-center gap-4 p-3 rounded-lg hover:bg-zinc-300 transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -416,8 +457,8 @@ function App() {
                   </div>
                 </a>
                 <a
-                  href="#"
-                  className="flex items-center gap-4 p-3 rounded-lg hover:bg-accent transition-colors"
+                  href="https://github.com/nandasultan"
+                  className="flex items-center gap-4 p-3 rounded-lg hover:bg-zinc-300 transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -445,10 +486,11 @@ function App() {
                   </div>
                 </a>
                 <a
-                  href="#"
-                  className="flex items-center gap-4 p-3 rounded-lg hover:bg-accent transition-colors"
+                  href="/public/assets/CV-ATS-ANANDA.pdf"
+                  className="flex items-center gap-4 p-3 rounded-lg hover:bg-zinc-300 transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
+                  download={true}
                 >
                   <div className="w-10 h-10 bg-green-100 dark:bg-green-900/30 rounded-lg flex items-center justify-center">
                     <svg
