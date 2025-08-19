@@ -8,14 +8,29 @@ function App() {
         <div className="hero container mx-auto sm:px-20 px-5 grid md:grid-cols-2 item-center xl:gap-0 gap-6 grid-cols-1">
           <div className="animate__animated animate__fadeInUp animate__delay-3s">
             <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Ananda Sultan Hady Wibowo</h1>
-            <div className="flex items-center gap-3 mb-6 bg-zinc-200 w-fit p-4 rounded-2xl">
-              <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy" />
-              <q>Kode yang indah, lahir dari ketekunan. ❤️</q>
-            </div>
+          </div>
+
+          <div>
+            <img
+              src={DataImage.HeroImage}
+              alt="Hero Image"
+              className=" w-[400px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s  lg:hidden"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <div className="hero container mx-auto sm:px-20 px-5 grid md:grid-cols-2 item-center xl:gap-0 gap-6 grid-cols-1">
+          <div>
             <p className="text-base/loose mb-6 opacity-50">
               Fresh graduate Teknik Informatika yang passionate dalam pengembangan perangkat lunak. Saya memiliki
               pengalaman dalam web development, mobile development, dan machine learning.
             </p>
+          </div>
+          <div>
+            <div className="flex items-center gap-3 mb-6 bg-zinc-200 w-fit h-20 p-4 rounded-2xl">
+              <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy" />
+              <q>Kode yang indah, lahir dari ketekunan. ❤️</q>
+            </div>
             <div className="items-center flex sm:gap-4 gap-2">
               <a
                 href="/public/assets/CV-ATS-ANANDA.pdf"
@@ -34,18 +49,12 @@ function App() {
               </a>
             </div>
           </div>
-          <img
-            src={DataImage.HeroImage}
-            alt="Hero Image"
-            className=" w-[400px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s"
-            loading="lazy"
-          />
         </div>
       </div>
 
       {/* TENTANG */}
       <div
-        className="tentang animate__animated animate__fadeInUp animate__delay-4s sm:mt-30 mt-10 py-10 sm:p-0 p-5"
+        className="tentang animate__animated animate__fadeInUp animate__delay-4s sm:mt-10 mt-10 py-10 sm:p-0 p-5"
         id="tentang"
       >
         <div
@@ -70,13 +79,13 @@ function App() {
             <div className="flex items-center gap-6">
               <div>
                 <h1 className="text-4xl mb-1 font-bold">
-                  45 <span className="text-violet-500">+</span>
+                  15 <span className="text-violet-500">+</span>
                 </h1>
                 <p>Project Selesai</p>
               </div>
               <div>
                 <h1 className="text-4xl mb-1 font-bold">
-                  4 <span className="text-violet-500">+</span>
+                  3 <span className="text-violet-500">+</span>
                 </h1>
                 <p>Tahun pengalaman</p>
               </div>
@@ -156,7 +165,7 @@ function App() {
                   <img
                     src={proyek.gambar}
                     alt="Proyek Image"
-                    className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
+                    className="w-full sm:h-46 md:h-40 xl:h-55 object-cover hover:scale-105 transition-transform duration-300"
                     loading="lazy"
                   />
                 </div>

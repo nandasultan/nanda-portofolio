@@ -155,64 +155,62 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.webp";
-import Proyek2 from "/assets/proyek/proyek2.webp";
-import Proyek3 from "/assets/proyek/proyek3.webp";
-import Proyek4 from "/assets/proyek/proyek4.webp";
-import Proyek5 from "/assets/proyek/proyek5.webp";
-import Proyek6 from "/assets/proyek/proyek6.webp";
+import Proyek1 from "/assets/proyek/porto.webp";
+import Proyek2 from "/assets/proyek/marketplace.webp";
+import Proyek3 from "/assets/proyek/tebakkata.webp";
+import Proyek4 from "/assets/proyek/Iot.webp";
+import Proyek5 from "/assets/proyek/platformgame.webp";
+//import Proyek6 from "/assets/proyek/proyek6.webp";
 
 export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
-    nama: "Website Sekolah",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS"],
+    nama: "Portfolio Website",
+    desk: "A personal website showcasing my profile, skills, and projects with a modern design built using ReactJS & TailwindCSS.",
+    tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
     dad: "200",
-    liveUrl: "https://example.com/ecommerce", // URL live demo
-    githubUrl: "https://github.com/user/ecommerce", // URL GitHub
+    liveUrl: null,
+    githubUrl: "https://github.com/nandasultan/react-portofolio",
   },
   {
     id: 2,
     gambar: Proyek2,
-    nama: "Company Profile",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
+    nama: "Marketplace Website",
+    desk: "An online marketplace platform for buying and selling groceries (fish, chicken, meat), developed with PHP & MySQL.",
+    tools: ["PHP", "XAMPP", "MySQL", "CSS", "Bootstrap"],
     dad: "300",
-    liveUrl: null, // Sembunyikan tombol Live Demo
-    githubUrl: "https://github.com/user/blog",
+    liveUrl: "https://nandasultan.great-site.net/?i=1", // Sembunyikan tombol Live Demo
+    githubUrl: "https://github.com/nandasultan/Masar.Yuk",
   },
   {
     id: 3,
     gambar: Proyek3,
-    nama: "Web Pernikahan 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
+    nama: "Elderly Word Guess Game",
+    desk: "An educational game built with Unity, designed for the elderly to help train memory through simple word-guessing gameplay.",
+    tools: ["UNITY", "C#", "Adobe Ps"],
     dad: "400",
+    liveUrl: "https://github.com/nandasultan/gim-tebak-kata-lansia/releases/tag/v1.0.0",
+    githubUrl: "https://github.com/nandasultan/gim-tebak-kata-lansia",
   },
   {
     id: 4,
     gambar: Proyek4,
-    nama: "Website Course",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
+    nama: "IoT Automatic Fan and Misting System",
+    desk: "An IoT project using NodeMCU ESP32 and DHT11 sensor to control a fan and misting system automatically based on temperature and humidity.",
+    tools: ["Arduino", "C++", "ESP32", "DHT11"],
     dad: "500",
+    liveUrl: "https://www.youtube.com/watch?v=CrBMEwiue_U",
+    githubUrl: "https://github.com/nandasultan/nsp32-dht11",
   },
   {
     id: 5,
     gambar: Proyek5,
-    nama: "Web Portfolio",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
+    nama: "Escape From The Forest Platform Game",
+    desk: "A 2D platformer game built with Unity where players must survive and escape the forest by overcoming various obstacles.",
+    tools: ["UNITY", "C#"],
     dad: "600",
-  },
-  {
-    id: 6,
-    gambar: Proyek6,
-    nama: "Company Profile 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["NextJS", "TailwindCSS", "Framermotion"],
-    dad: "700",
+    liveUrl: null,
+    githubUrl: "https://github.com/nandasultan/gim-platform",
   },
 ];
