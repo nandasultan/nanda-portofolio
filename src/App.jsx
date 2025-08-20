@@ -6,7 +6,13 @@ function App() {
     <>
       <div className="pt-17 md:pt-24 md:hidden hidden lg:block">
         <div className="hero container mx-auto sm:px-20 px-5 grid md:grid-cols-2 item-center xl:gap-0 gap-6 grid-cols-1">
-          <div className="animate__animated animate__fadeInUp animate__delay-3s">
+          <div
+            className="animate__animated animate__fadeInUp animate__delay-3s"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            data-aos-once="true"
+          >
             <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Ananda Sultan Hady Wibowo</h1>
 
             <p className="text-base/loose mb-6 opacity-50">
@@ -44,22 +50,22 @@ function App() {
         </div>
       </div>
 
-      {/* HERO */}
+      {/* SM-MD */}
       <div className="pt-17 md:pt-24 lg:hidden">
         <div className="hero container mx-auto sm:px-20 px-5 grid md:grid-cols-2 item-center xl:gap-0 gap-6 grid-cols-1">
-          <div className="animate__animated animate__fadeInUp animate__delay-3s">
+          <div data-aos="fade-up" data-aos-delay="3000" data-aos-once="true">
             <h1 className="text-5xl/tight font-bold mb-6">Hi, I’m Ananda Sultan Hady Wibowo</h1>
           </div>
-          <div>
+          <div data-aos="fade-up" data-aos-delay="3000" data-aos-once="true">
             <img
               src={DataImage.HeroImage}
               alt="Hero Image"
-              className=" w-[400px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s lg:hidden"
+              className=" w-[400px] md:ml-auto lg:hidden"
               loading="lazy"
             />
           </div>
         </div>
-        <div className="hero container  mx-auto sm:px-20 px-5 grid md:grid-cols-2 item-center xl:gap-0 gap-6 grid-cols-1">
+        <div className="hero container animate__animated animate__fadeInUp animate__delay-3s mx-auto sm:px-20 px-5 grid md:grid-cols-2 item-center xl:gap-0 gap-6 grid-cols-1">
           <div>
             <p className="text-base/loose sm:mb-6 mb-0 sm:mt-0 mt-6 opacity-50 sm:text-left text-justify">
               Fresh graduate in Informatics Engineering with strong experience in web development, game development, IoT
@@ -155,7 +161,7 @@ function App() {
               className="flex items-center gap-2 p-3 border border-zinc-200 rounded-md hover:bg-zinc-300 group"
               key={tool.id}
               data-aos="fade-up"
-              data-aos-duration="1000"
+              data-aos-duration={tool.durasi}
               data-aos-delay={tool.dad}
               data-aos-once="true"
             >

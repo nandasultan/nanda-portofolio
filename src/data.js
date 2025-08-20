@@ -1,157 +1,291 @@
 import HeroImage from "/assets/nanda2.png";
 
+import vscode from "/assets/tools/vscode.png";
+import html from "/assets/tools/html.png";
+import css from "/assets/tools/css.png";
+import javascript from "/assets/tools/js.png";
+import markdown from "/assets/tools/markdown.png";
+import cplus from "/assets/tools/cplus.svg";
+import cshrap from "/assets/tools/cshrap.png";
+import php from "/assets/tools/php.png";
+import python from "/assets/tools/python.svg";
+import r from "/assets/tools/R.png";
+import kotlin from "/assets/tools/kotlin.png";
+import react from "/assets/tools/reactjs.png";
+import nextjs from "/assets/tools/nextjs.png";
+import laravel from "/assets/tools/laravel.png";
+import bootstrap from "/assets/tools/bootstrap.png";
+import tailwind from "/assets/tools/tailwind.png";
+import vite from "/assets/tools/vite.png";
+import nodejs from "/assets/tools/nodejs.png";
+import xampp from "/assets/tools/xampp.png";
+import mysql from "/assets/tools/mysql.png";
+import arduino from "/assets/tools/arduino.png";
+import unity from "/assets/tools/unity.png";
+import github from "/assets/tools/github.png";
+import figma from "/assets/tools/figma.png";
+import ps from "/assets/tools/photoshop.png";
+import ai from "/assets/tools/ai.png";
+import ae from "/assets/tools/ae.png";
+import pr from "/assets/tools/pr.png";
+import canva from "/assets/tools/canva.png";
+import blender from "/assets/tools/blender.png";
+import sketchup from "/assets/tools/sketchup.png";
+
 const Image = {
   HeroImage,
 };
 
 export default Image;
 
-import Tools1 from "/assets/tools/vscode.png";
-import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "/assets/tools/nextjs.png";
-import Tools4 from "/assets/tools/tailwind.png";
-import Tools5 from "/assets/tools/bootstrap.png";
-import Tools6 from "/assets/tools/js.png";
-import Tools7 from "/assets/tools/nodejs.png";
-import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/blender.png";
-import Tools10 from "/assets/tools/figma.png";
-import Tools11 from "/assets/tools/photoshop.png";
-import Tools12 from "/assets/tools/arduino.png";
-import Tools13 from "/assets/tools/unity.png";
-import Tools14 from "/assets/tools/html.png";
-import Tools15 from "/assets/tools/css.png";
-import Tools16 from "/assets/tools/cshrap.png";
-
 export const listTools = [
   {
     id: 1,
-    gambar: Tools1,
+    gambar: vscode,
     nama: "Visual Studio Code",
     ket: "Code Editor",
+    durasi: "1000",
     dad: "100",
   },
   {
     id: 2,
-    gambar: Tools12,
-    nama: "Arduino",
-    ket: "",
+    gambar: html,
+    nama: "HTML",
+    ket: "Markup Language",
+    durasi: "1000",
     dad: "200",
   },
   {
     id: 3,
-    gambar: Tools13,
-    nama: "Unity",
-    ket: "",
+    gambar: css,
+    nama: "CSS",
+    ket: "Style Language",
+    durasi: "1000",
     dad: "300",
   },
   {
     id: 4,
-    gambar: Tools2,
-    nama: "Rect JS",
-    ket: "Framework",
+    gambar: javascript,
+    nama: "JavaScript",
+    ket: "Programming Language",
+    durasi: "1000",
     dad: "400",
   },
   {
     id: 5,
-    gambar: Tools3,
-    nama: "Next JS",
-    ket: "Framework",
+    gambar: markdown,
+    nama: "Markdown",
+    ket: "Markup Language",
+    durasi: "1000",
     dad: "500",
   },
   {
     id: 6,
-    gambar: Tools4,
-    nama: "Tailwind CSS",
-    ket: "Framework",
+    gambar: cplus,
+    nama: "C++",
+    ket: "Programming Language",
+    durasi: "1000",
     dad: "600",
   },
   {
     id: 7,
-    className: "",
-    gambar: Tools14,
-    nama: "HTML",
-    ket: "Language",
+    gambar: cshrap,
+    nama: "C#",
+    ket: "Programming Language",
+    durasi: "1000",
     dad: "700",
   },
   {
     id: 8,
-    gambar: Tools15,
-    nama: "CSS",
-    ket: "Language",
+    gambar: php,
+    nama: "PHP",
+    ket: "Programming Language",
+    durasi: "1000",
     dad: "800",
   },
   {
     id: 9,
-    gambar: Tools6,
-    nama: "Javascript",
-    ket: "Language",
+    gambar: python,
+    nama: "Python",
+    ket: "Programming Language",
+    durasi: "1000",
     dad: "900",
   },
-
   {
     id: 10,
-    gambar: Tools16,
-    nama: "C#",
-    ket: "Langeguage",
+    gambar: r,
+    nama: "R",
+    ket: "Programming Language",
+    durasi: "1000",
     dad: "1000",
   },
-
   {
     id: 11,
-    gambar: Tools7,
-    nama: "Node JS",
-    ket: "Javascript Runtime",
+    gambar: kotlin,
+    nama: "Kotlin",
+    ket: "Programming Language",
+    durasi: "1000",
     dad: "1100",
   },
   {
     id: 12,
-    gambar: Tools8,
-    nama: "Github",
-    ket: "Repository",
+    gambar: react,
+    nama: "React",
+    ket: "Javascript Library",
+    durasi: "1000",
     dad: "1200",
   },
   {
     id: 13,
-    gambar: Tools9,
-    nama: "Blender",
-    ket: "3D Design App",
+    gambar: nextjs,
+    nama: "Next.js",
+    ket: "React Framework",
+    durasi: "1000",
     dad: "1300",
   },
   {
     id: 14,
-    gambar: Tools10,
-    nama: "Figma",
-    ket: "Design App",
+    gambar: laravel,
+    nama: "Laravel",
+    ket: "PHP Framework",
+    durasi: "1000",
     dad: "1400",
   },
   {
     id: 15,
-    gambar: Tools11,
-    nama: "Photoshop",
-    ket: "Design App",
+    gambar: bootstrap,
+    nama: "Bootstrap",
+    ket: "CSS Framework",
+    durasi: "1000",
     dad: "1500",
   },
   {
     id: 16,
-    gambar: Tools12,
-    nama: "Photoshop",
-    ket: "Design App",
+    gambar: tailwind,
+    nama: "TailwindCSS",
+    ket: "CSS Framework",
+    durasi: "1000",
     dad: "1600",
   },
   {
     id: 17,
-    gambar: Tools13,
-    nama: "Photoshop",
-    ket: "Design App",
+    gambar: vite,
+    nama: "Vite",
+    ket: "Frontend Build Tool",
+    durasi: "1000",
     dad: "1700",
   },
   {
     id: 18,
-    gambar: Tools5,
-    nama: "Photoshop",
+    gambar: nodejs,
+    nama: "Node.js",
+    ket: "JavaScript Runtime",
+    durasi: "1000",
+    dad: "1800",
+  },
+  {
+    id: 19,
+    gambar: xampp,
+    nama: "XAMPP",
+    ket: "Web Server / Dev Environment",
+    durasi: "1000",
+    dad: "1900",
+  },
+  {
+    id: 20,
+    gambar: mysql,
+    nama: "MySQL",
+    ket: "Database",
+    durasi: "1000",
+    dad: "2000",
+  },
+  {
+    id: 21,
+    gambar: arduino,
+    nama: "Arduino",
+    ket: "IoT Platform",
+    durasi: "1000",
+    dad: "2100",
+  },
+  {
+    id: 22,
+    gambar: unity,
+    nama: "Unity",
+    ket: "Game Engine",
+    durasi: "1000",
+    dad: "2200",
+  },
+  {
+    id: 23,
+    gambar: github,
+    nama: "GitHub",
+    ket: "Repository / Version Control",
+    durasi: "1000",
+    dad: "2300",
+  },
+  {
+    id: 24,
+    gambar: figma,
+    nama: "Figma",
+    ket: "UI/UX Design App",
+    durasi: "1000",
+    dad: "2400",
+  },
+  {
+    id: 25,
+    gambar: ps,
+    nama: "Adobe Photoshop",
     ket: "Design App",
-    dad: "1700",
+    durasi: "500",
+    dad: "2500",
+  },
+  {
+    id: 26,
+    gambar: ai,
+    nama: "Adobe Illustrator",
+    ket: "Design App",
+    durasi: "500",
+    dad: "2600",
+  },
+  {
+    id: 27,
+    gambar: ae,
+    nama: "Adobe After Effects",
+    ket: "Motion Graphics",
+    durasi: "500",
+    dad: "2700",
+  },
+  {
+    id: 28,
+    gambar: pr,
+    nama: "Adobe Premiere Pro",
+    ket: "Video Editing",
+    durasi: "500",
+    dad: "2800",
+  },
+  {
+    id: 29,
+    gambar: canva,
+    nama: "Canva",
+    ket: "Design App",
+    durasi: "500",
+    dad: "2900",
+  },
+  {
+    id: 30,
+    gambar: blender,
+    nama: "Blender",
+    ket: "3D Design App",
+    durasi: "1000",
+    dad: "3000",
+  },
+  {
+    id: 31,
+    gambar: sketchup,
+    nama: "SketchUp",
+    ket: "3D Design App",
+    durasi: "1500",
+    dad: "3000",
   },
 ];
 
