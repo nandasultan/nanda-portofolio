@@ -4,9 +4,9 @@ const Footer = () => {
       <div className="container flex items-center justify-between mx-auto">
         <h1 className="text-2xl font-bold">Portofolio</h1>
         <div className="hidden md:flex gap-7">
-          <a href="#beranda">Beranda</a>
-          <a href="#tentang">Tentang</a>
-          <a href="#proyek">Proyek</a>
+          <a href="#beranda">Home</a>
+          <a href="#tentang">About</a>
+          <a href="#proyek">Project</a>
         </div>
         <div className="flex items-center gap-3">
           <a href="#">

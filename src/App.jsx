@@ -48,7 +48,7 @@ function App() {
       <div className="pt-17 md:pt-24 lg:hidden">
         <div className="hero container mx-auto sm:px-20 px-5 grid md:grid-cols-2 item-center xl:gap-0 gap-6 grid-cols-1">
           <div className="animate__animated animate__fadeInUp animate__delay-3s">
-            <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Ananda Sultan Hady Wibowo</h1>
+            <h1 className="text-5xl/tight font-bold mb-6">Hi, I’m Ananda Sultan Hady Wibowo</h1>
           </div>
           <div>
             <img
@@ -62,14 +62,15 @@ function App() {
         <div className="hero container  mx-auto sm:px-20 px-5 grid md:grid-cols-2 item-center xl:gap-0 gap-6 grid-cols-1">
           <div>
             <p className="text-base/loose sm:mb-6 mb-0 sm:mt-0 mt-6 opacity-50 sm:text-left text-justify">
-              Fresh graduate Teknik Informatika yang passionate dalam pengembangan perangkat lunak. Saya memiliki
-              pengalaman dalam web development, mobile development, dan machine learning.
+              Fresh graduate in Informatics Engineering with strong experience in web development, game development, IoT
+              projects, and data analysis. I enjoy exploring mobile development, AI, and machine learning as areas of
+              personal interest.
             </p>
           </div>
           <div>
             <div className="flex items-center gap-3 mb-6 bg-zinc-200 w-fit h-20 p-4 rounded-2xl">
               <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy" />
-              <q>Kode yang indah, lahir dari ketekunan. ❤️</q>
+              <q>"Beautiful code is born from perseverance. ❤️"</q>
             </div>
             <div className="items-center flex sm:gap-4 gap-2 justify-center">
               <a
@@ -85,7 +86,7 @@ function App() {
                 href="#proyek"
                 className="text-white bg-[#2c2f30] p-4 rounded-2xl hover:bg-zinc-300 hover:text-black  "
               >
-                Lihat Proyek <i className="ri-arrow-down-long-fill ri-lg"></i>
+                View Projects <i className="ri-arrow-down-long-fill ri-lg"></i>
               </a>
             </div>
           </div>
@@ -107,12 +108,12 @@ function App() {
         >
           <h1 className="text-4xl font-black text-center pb-5">About Me</h1>
           <p className="text-base/loose mb-10">
-            Saya adalah lulusan Teknik Informatika dengan IPK 3.75 dari Universitas Indonesia. Selama kuliah, saya aktif
-            dalam berbagai proyek pengembangan perangkat lunak dan organisasi kemahasiswaan. Saya memiliki passion yang
-            kuat dalam teknologi web modern dan mobile development. Saya juga tertarik dengan bidang artificial
-            intelligence dan machine learning, serta telah mengerjakan beberapa proyek research di bidang tersebut. Saat
-            ini saya sedang mencari kesempatan untuk memulai karir profesional sebagai software developer dan
-            berkontribusi dalam tim pengembangan yang dinamis.
+            I am a graduate of Informatics Engineering with a GPA of 3.75 from Universitas Indonesia. During my studies,
+            I actively participated in various software development projects and student organizations. My main
+            expertise lies in web development, game development, IoT systems, and data analysis. I also have a strong
+            interest in exploring fields such as mobile development, artificial intelligence, and machine learning.
+            Currently, I am seeking opportunities to start my professional career as a software developer or data
+            analyst and contribute to a dynamic development team.
           </p>
           <div className="flex items-center justify-between">
             <img src={DataImage.HeroImage} alt="Iamge" className="w-12 rounded-md sm:block hidden" loading="lazy" />
@@ -121,13 +122,13 @@ function App() {
                 <h1 className="text-4xl mb-1 font-bold">
                   15 <span className="text-violet-500">+</span>
                 </h1>
-                <p>Project Selesai</p>
+                <p>Project Completed</p>
               </div>
               <div>
                 <h1 className="text-4xl mb-1 font-bold">
                   3 <span className="text-violet-500">+</span>
                 </h1>
-                <p>Tahun pengalaman</p>
+                <p>Years of Experience</p>
               </div>
             </div>
           </div>
@@ -137,7 +138,7 @@ function App() {
       {/* TOOLS */}
       <div className="container mx-auto tools sm:mt-0 mt-0 sm:px-15 px-5">
         <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up" dataaos-duration="1000" data-aos-once="true">
-          Tools yang dipakai
+          Tools I Use
         </h1>
         <p
           className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50"
@@ -146,7 +147,7 @@ function App() {
           data-aos-delay="300"
           data-aos-once="true"
         >
-          Tools yang biasa dipakai untuk pembuatan Websita ataupun Desain
+          These are the tools I use to build and develop my projects.
         </p>
         <div className="tools-box sm:mt-14 mt-8 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
           {listTools.map((tool) => (
@@ -179,7 +180,7 @@ function App() {
             data-aos-duration="1000"
             data-aos-once="true"
           >
-            Proyek
+            Project
           </h1>
           <p
             className="text-base/loose text-center text-zinc-500 "
@@ -188,7 +189,7 @@ function App() {
             data-aos-delay="300"
             data-aos-once="true"
           >
-            Berikut ini beberapa proyek yang telah di kerjakan
+            Here are some of the projects I have worked on.
           </p>
 
           <div className="proyek-box sm:mt10 mt-8 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4 justify-items-center">
@@ -308,12 +309,12 @@ function App() {
 
       {/* Kontak */}
       <div
-        className="kontak lg:py-20 py-20 sm:mt-15 mt-10 sm:p-0 p-5 "
+        className="kontak sm:mt-10 mt-10 sm:p-10 p-5 "
         id="kontak"
-        // data-aos="fade-up"
-        // data-aos-duration="1000"
-        // data-aos-delay="500"
-        // data-aos-once="true"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="500"
+        data-aos-once="true"
       >
         <h1
           className="text-4xl mb-2 font-bold text-center"
@@ -321,7 +322,7 @@ function App() {
           data-aos-duration="1000"
           data-aos-once="true"
         >
-          Kontak
+          Contact
         </h1>
         <p
           className="text-base/loose text-center mb-10 opacity-50 text-zinc-500"
@@ -330,13 +331,13 @@ function App() {
           data-aos-delay="300"
           data-aos-once="true"
         >
-          Mari Terhubung Dengan Saya
+          Let’s Get Connected
         </p>
 
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div data-slot="card" className="bg-white flex flex-col gap-6 rounded-xl border border-zinc-300 p-8">
-              <h3 className="text-xl font-medium mb-4">Informasi Kontak</h3>
+              <h3 className="text-xl font-medium mb-4">Contact Information</h3>
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
                   <div className="w-10 h-10 bg-zinc-200 rounded-lg flex items-center justify-center">
@@ -386,7 +387,7 @@ function App() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-medium">Telepon</p>
+                    <p className="font-medium">Phone</p>
                     <a
                       href="https://wa.me/6285251728884"
                       className="text-zinc-500 hover:text-black transition-colors"
@@ -417,14 +418,14 @@ function App() {
                     </svg>
                   </div>
                   <div>
-                    <p className="font-medium">Lokasi</p>
-                    <p className="text-zinc-500">Kalimantan Timur, Indonesia</p>
+                    <p className="font-medium">Location</p>
+                    <p className="text-zinc-500">East Kalimantan, Indonesia</p>
                   </div>
                 </div>
               </div>
             </div>
             <div data-slot="card" className="flex flex-col gap-6 rounded-xl border border-zinc-300 p-8">
-              <h3 className="text-xl font-medium mb-1">Profil Online</h3>
+              <h3 className="text-xl font-medium mb-1">Online Profiles</h3>
               <div className="">
                 <a
                   href="https://www.linkedin.com/in/nandasultan/"
@@ -453,7 +454,7 @@ function App() {
                   </div>
                   <div>
                     <p className="font-medium">LinkedIn</p>
-                    <p className="text-sm text-zinc-500">Profil profesional</p>
+                    <p className="text-sm text-zinc-500">Professional Profile</p>
                   </div>
                 </a>
                 <a
@@ -482,7 +483,7 @@ function App() {
                   </div>
                   <div>
                     <p className="font-medium">GitHub</p>
-                    <p className="text-sm text-zinc-500">Repository proyek</p>
+                    <p className="text-sm text-zinc-500">Project Repository</p>
                   </div>
                 </a>
                 <a
@@ -524,12 +525,12 @@ function App() {
           <div className="text-center">
             <div
               data-slot="card"
-              className="text-card-foreground flex flex-col gap-6 rounded-xl border p-8 bg-zinc-200 border-zinc-300"
+              className="text-card-foreground flex flex-col gap-5 rounded-xl border p-8 bg-zinc-200 border-zinc-300"
             >
-              <h3 className="text-xl font-bold mb-4">Mari Berkolaborasi!</h3>
+              <h3 className="text-2xl font-bold mb-4 mt-5">Let’s Collaborate!</h3>
               <p className="text-black/80 mb-6 max-w-2xl mx-auto">
-                Saya selalu terbuka untuk kesempatan baru, proyek menarik, atau sekedar diskusi tentang teknologi dan
-                pengembangan software. Mari kita ciptakan sesuatu yang luar biasa bersama!
+                I’m always open to new opportunities, exciting projects, or simply a discussion about technology and
+                software development. Let’s create something amazing together!
               </p>
 
               <form
@@ -540,11 +541,11 @@ function App() {
               >
                 <div className="flex flex-col gap-6">
                   <div className="flex flex-col gap-2">
-                    <label className="font-semibold">Nama Lengkap</label>
+                    <label className="font-semibold">Full Name</label>
                     <input
                       type="text"
                       name="Nama"
-                      placeholder="Masukan Nama..."
+                      placeholder="Enter your name..."
                       className="bg-zinc-100/50 border border-zinc-300 p-2 rounded-md"
                       required
                     />
@@ -554,21 +555,21 @@ function App() {
                     <input
                       type="email"
                       name="Email"
-                      placeholder="Masukan Email..."
+                      placeholder="Enter your email...  "
                       className="bg-zinc-100/50 border border-zinc-300 p-2 rounded-md"
                       required
                     />
                   </div>
                   <div className="flex flex-col gap-2">
                     <label htmlFor="pesan" className="font-semibold">
-                      Pesan
+                      Message
                     </label>
                     <textarea
                       name="Pesan"
                       id="pesan"
                       cols="45"
                       rows="7"
-                      placeholder="Pesan..."
+                      placeholder="Write your message..."
                       className="bg-zinc-100/50 border border-zinc-300 p-2 rounded-md"
                       required
                     ></textarea>
@@ -578,7 +579,7 @@ function App() {
                       type="sumbit"
                       className="bg-zinc-900 text-white p-3 rounded-lg w-full cursor-pointer block border border-zinc-300 hover:bg-zinc-800/90 transition-colors"
                     >
-                      Kirim Pesan
+                      Send Message
                     </button>
                   </div>
                 </div>

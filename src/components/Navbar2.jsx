@@ -26,16 +26,16 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-base font-medium">
           <li>
-            <a href="#beranda">Beranda</a>
+            <a href="#beranda">Home</a>
           </li>
           <li>
-            <a href="#tentang">Tentang</a>
+            <a href="#tentang">About</a>
           </li>
           <li>
-            <a href="#proyek">Proyek</a>
+            <a href="#proyek">Project</a>
           </li>
           <li>
-            <a href="#kontak">Kontak</a>
+            <a href="#kontak">Contact</a>
           </li>
         </ul>
 
