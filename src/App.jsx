@@ -490,7 +490,7 @@ function App() {
                   </div>
                 </a>
                 <a
-                  href="/nanda-portofolio/assets/CV-ATS-ANANDA.pdf"
+                  href="/nanda-portofolio/assets/CV-ANANDA-SULTAN.pdf"
                   className="flex items-center gap-4 p-3 rounded-lg hover:bg-zinc-300 transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
