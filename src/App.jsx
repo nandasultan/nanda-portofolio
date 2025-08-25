@@ -37,7 +37,7 @@ function App() {
                   href="#proyek"
                   className="text-white bg-[#2c2f30] p-4 rounded-2xl hover:bg-zinc-300 hover:text-black  "
                 >
-                  Lihat Proyek <i className="ri-arrow-down-long-fill ri-lg overflow-y-scroll"></i>
+                  View Projects <i className="ri-arrow-down-long-fill ri-lg overflow-y-scroll"></i>
                 </a>
               </div>
             </div>
