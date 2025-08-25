@@ -23,7 +23,7 @@ function App() {
             <div>
               <div className="flex items-center gap-3 mb-6 bg-zinc-200 w-fit h-20 p-4 rounded-2xl">
                 <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy" />
-                <q>Kode yang indah, lahir dari ketekunan. ❤️</q>
+                <q>Engineer by Degree, Creator by Passion.</q>
               </div>
               <div className="items-center flex sm:gap-4 gap-2">
                 <a
@@ -76,15 +76,12 @@ function App() {
           <div>
             <div className="flex items-center gap-3 mb-6 bg-zinc-200 w-fit h-20 p-4 rounded-2xl">
               <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy" />
-              <q>"Beautiful code is born from perseverance. ❤️"</q>
+              <q>Engineer by Degree, Creator by Passion.</q>
             </div>
             <div className="items-center flex sm:gap-4 gap-2 justify-center">
               <a
-                href="/public/assets/CV-ATS-ANANDA.pdf"
+                href="#kontak"
                 className=" text-white bg-[#6b7479] p-4 rounded-2xl hover:bg-zinc-400 hover:text-black "
-                download={true}
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 Download CV <i className="ri-arrow-down-long-fill ri-lg"></i>
               </a>
@@ -109,13 +106,13 @@ function App() {
           className="xl:w-2/3 lg:w-3/4 mx-auto p-7 bg-zinc-100 rounded-lg"
           data-aos="fade-up"
           data-aos-duration="4000"
-          data-aos-delay="300"
+          data-aos-delay="500"
           data-aos-once="true"
         >
           <h1 className="text-4xl font-black text-center pb-5">About Me</h1>
           <p className="text-base/loose mb-10">
-            I am a graduate of Informatics Engineering with a GPA of 3.75 from Universitas Indonesia. During my studies,
-            I actively participated in various software development projects and student organizations. My main
+            I am a graduate of Informatics Engineering with a GPA of 3.63 from Universitas Islam Indonesia. During my
+            studies, I actively participated in various software development projects and student organizations. My main
             expertise lies in web development, game development, IoT systems, and data analysis. I also have a strong
             interest in exploring fields such as mobile development, artificial intelligence, and machine learning.
             Currently, I am seeking opportunities to start my professional career as a software developer or data
@@ -149,7 +146,7 @@ function App() {
         <p
           className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50"
           data-aos="fade-up"
-          data-aos-duration="1000"
+          data-aos-duration="500"
           data-aos-delay="300"
           data-aos-once="true"
         >
@@ -161,8 +158,8 @@ function App() {
               className="flex items-center gap-2 p-3 border border-zinc-200 rounded-md hover:bg-zinc-300 group"
               key={tool.id}
               data-aos="fade-up"
-              data-aos-duration={tool.durasi}
-              data-aos-delay={tool.dad}
+              data-aos-duration="1000"
+              data-aos-delay="300"
               data-aos-once="true"
             >
               <img src={tool.gambar} alt="Tools Image" className="w-14 p-4 group-hover:bg-zinc-300" loading="lazy" />
@@ -213,7 +210,7 @@ function App() {
                   <img
                     src={proyek.gambar}
                     alt="Proyek Image"
-                    className="w-full sm:h-46 md:h-40 xl:h-65 object-cover hover:scale-105 transition-transform duration-300"
+                    className="w-full sm:h-46 md:h-40 lg:h-35 xl:h-50 2xl:h-65  object-cover hover:scale-105 transition-transform duration-300"
                     loading="lazy"
                   />
                 </div>
@@ -493,7 +490,7 @@ function App() {
                   </div>
                 </a>
                 <a
-                  href="/public/assets/CV-ATS-ANANDA.pdf"
+                  href="/nanda-portofolio/assets/CV-ATS-ANANDA.pdf"
                   className="flex items-center gap-4 p-3 rounded-lg hover:bg-zinc-300 transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"

@@ -16,7 +16,7 @@ AOS.init();
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    {/* <PreLoader /> */}
+    <PreLoader />
 
     <Navbar2 />
 
