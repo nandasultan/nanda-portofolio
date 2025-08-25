@@ -13,11 +13,12 @@ function App() {
             data-aos-delay="300"
             data-aos-once="true"
           >
-            <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Ananda Sultan Hady Wibowo</h1>
+            <h1 className="text-5xl/tight font-bold mb-6">Hi, I’m Ananda Sultan Hady Wibowo</h1>
 
             <p className="text-base/loose mb-6 opacity-50">
-              Fresh graduate Teknik Informatika yang passionate dalam pengembangan perangkat lunak. Saya memiliki
-              pengalaman dalam web development, mobile development, dan machine learning.
+              Fresh graduate in Informatics Engineering with strong experience in web development, game development, IoT
+              projects, and data analysis. I enjoy exploring mobile development, AI, and machine learning as areas of
+              personal interest.
             </p>
 
             <div>
