@@ -31,6 +31,7 @@ import pr from "/assets/tools/pr.png";
 import canva from "/assets/tools/canva.png";
 import blender from "/assets/tools/blender.png";
 import sketchup from "/assets/tools/sketchup.png";
+import tableau from "/assets/tools/tableau2.png";
 
 const Image = {
   HeroImage,
@@ -225,6 +226,12 @@ export const listTools = [
     nama: "SketchUp",
     ket: "3D Design App",
   },
+  {
+    id: 32,
+    gambar: tableau,
+    nama: "Tableau",
+    ket: "Data Analysis and Visualization",
+  },
 ];
 
 import Proyek1 from "/assets/proyek/porto.webp";
@@ -232,7 +239,7 @@ import Proyek2 from "/assets/proyek/marketplace.webp";
 import Proyek3 from "/assets/proyek/tebakkata.webp";
 import Proyek4 from "/assets/proyek/Iot.webp";
 import Proyek5 from "/assets/proyek/platformgame.webp";
-//import Proyek6 from "/assets/proyek/proyek6.webp";
+import Proyek6 from "/assets/proyek/tabelau.webp";
 
 export const listProyek = [
   {
@@ -246,46 +253,59 @@ export const listProyek = [
     liveUrl: null,
     githubUrl: "https://github.com/nandasultan/react-portofolio",
   },
+
   {
     id: 2,
+    gambar: Proyek6,
+    nama: "Healthcare Facilities & Insurance Coverage in West Java",
+    desk: "Interactive Tableau dashboard analyzing healthcare facilities and insurance in West Java, showing regional gaps, coverage categories, and facility distribution.",
+    tools: ["Tableau", "Excle", "Public Dataset"],
+    dad: "300",
+    span: "2025",
+    liveUrl:
+      "https://public.tableau.com/app/profile/ananda.sultan.hady.wibowo/viz/JaminandanJumlahFasilitasKesehatandiJawabarat/Dashboard1",
+    //githubUrl: "https://github.com/nandasultan/react-portofolio",
+  },
+  {
+    id: 3,
     gambar: Proyek2,
     nama: "Marketplace Website",
     desk: "An online marketplace platform for buying and selling groceries (fish, chicken, meat), developed with PHP & MySQL.",
     tools: ["PHP", "XAMPP", "MySQL", "CSS", "Bootstrap"],
-    dad: "300",
+    dad: "400",
     span: "2024",
     liveUrl: "https://nandasultan.great-site.net/?i=1", // Sembunyikan tombol Live Demo
     githubUrl: "https://github.com/nandasultan/Masar.Yuk",
   },
   {
-    id: 3,
+    id: 4,
     gambar: Proyek3,
     nama: "Elderly Word Guess Game",
     desk: "An educational game built with Unity, designed for the elderly to help train memory through simple word-guessing gameplay.",
     tools: ["UNITY", "C#", "Adobe Ps"],
-    dad: "400",
+    dad: "500",
     span: "2024",
     liveUrl: "https://github.com/nandasultan/gim-tebak-kata-lansia/releases/tag/v1.0.0",
     githubUrl: "https://github.com/nandasultan/gim-tebak-kata-lansia",
   },
   {
-    id: 4,
+    id: 5,
     gambar: Proyek4,
     nama: "IoT Automatic Fan and Misting System",
     desk: "An IoT project using NodeMCU ESP32 and DHT11 sensor to control a fan and misting system automatically based on temperature and humidity.",
     tools: ["Arduino", "C++", "ESP32", "DHT11"],
-    dad: "500",
+    dad: "600",
     span: "2023",
     liveUrl: "https://www.youtube.com/watch?v=CrBMEwiue_U",
     githubUrl: "https://github.com/nandasultan/nsp32-dht11",
   },
   {
-    id: 5,
+    id: 6,
     gambar: Proyek5,
     nama: "Escape From The Forest Platform Game",
     desk: "A 2D platformer game built with Unity where players must survive and escape the forest by overcoming various obstacles.",
     tools: ["UNITY", "C#"],
-    dad: "600",
+    dad: "700",
     span: "2022",
     liveUrl: null,
     githubUrl: "https://github.com/nandasultan/gim-platform",
